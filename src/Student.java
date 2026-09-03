@@ -36,6 +36,31 @@ public class Student {
         this.Sid=Sid;
     }
 
+    // Methods = Getters and Setters
+    public String getFN() {
+        return FN;
+    }
+
+    public void setFN(String FN) {
+        this.FN = FN;
+    }
+
+    public String getLN() {
+        return LN;
+    }
+
+    public void setLN(String LN) {
+        this.LN = LN;
+    }
+
+    public int getSid() {
+        return Sid;
+    }
+
+    public void setSid(int sid) {
+        Sid = sid;
+    }
+
     // You can create overloaded constructors by varying 1) the parameter number, 2) order
     public static void main(String[] args){
 
