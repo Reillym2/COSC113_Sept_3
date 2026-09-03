@@ -24,8 +24,9 @@ public class Student {
     }
     // How many parameters = 3
    Student(String FN, String LN, int Sid){
-        this.FN=FN;
-        this.LN=LN;
+//        this.FN=FN;
+//        this.LN=LN;
+       this(FN, LN);
         this.Sid=Sid;
     }
 
