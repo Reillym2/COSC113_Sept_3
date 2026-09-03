@@ -64,6 +64,12 @@ public class Student {
     // You can create overloaded constructors by varying 1) the parameter number, 2) order
     public static void main(String[] args){
 
+        Student s6 = new Student();
+        // Setting names
+        s6.FN = "Melanie";
+        s6.setLN("Thomas");
+        s6.LN("Simpson")
+
         Student s4 = new Student("Hellen","Payton");
         System.out.println(s4.FN);
         System.out.println(s4.LN);
