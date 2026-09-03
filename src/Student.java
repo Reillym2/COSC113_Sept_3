@@ -1,5 +1,7 @@
 
 
+
+//https://github.com/Reillym2/COSC113_Sept_3.git
 public class Student {
     String FN;
     String LN;
@@ -62,13 +64,15 @@ public class Student {
     }
 
     // You can create overloaded constructors by varying 1) the parameter number, 2) order
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Student s6 = new Student();
         // Setting names
         s6.FN = "Melanie";
         s6.setLN("Thomas");
-        s6.LN("Simpson")
+        s6.setLN("Simson");
+        System.out.println(s6.FN);
+        System.out.println(s6.LN);
 
         Student s4 = new Student("Hellen","Payton");
         System.out.println(s4.FN);
